@@ -1,4 +1,8 @@
 """duet - a self-editing terminal workspace where human and AI collaborate."""
+
+# /// script
+# dependencies = ["anthropic"]
+# ///
 import curses, anthropic, re, sys, os
 
 SYSTEM_PROMPT = """You are a self-editing document—a living Python program that modifies its own source.
